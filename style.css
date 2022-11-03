@@ -1,0 +1,136 @@
+body {
+  background-color: #02343f;
+  margin: 0;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+  height: 50px;
+  background-color: #02343f;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Logo {
+  margin-left: 10px;
+  width: 100px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-color: #f0edcc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.link {
+  width: 80px;
+  height: 35px;
+  margin: 15px;
+  border-radius: 50%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0edcc;
+}
+.container2 {
+  min-height: 600px;
+  max-width: 1300px;
+  margin: 0 auto;
+  background-image: url(http://www.alluringworld.com/wp-content/uploads/2016/05/8-Bishkek-House-700x440.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  font-size: 50px;
+  margin: 30px;
+  border-radius: 5%;
+}
+.infoSection {
+  background-color: #02343f;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+}
+.bigboxes {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 85px 75px;
+  margin: 100px 0;
+}
+.box {
+  background-color: #f0edcc;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 315px;
+  height: 350px;
+  border: 2px solid black;
+  text-align: center;
+  font-size: large;
+  position: relative;
+  border-radius: 10%;
+}
+.box img {
+  position: absolute;
+  height: 110px;
+  width: 110px;
+  border-radius: 50%;
+  top: -50px;
+  left: -50px;
+  object-fit: cover;
+}
+.number {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #acc7b4;
+  color: black;
+  top: -43px;
+  right: -23px;
+}
+
+.footer {
+  width: 100%;
+  height: 50px;
+  background-color: #f0edcc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu {
+  display: none;
+}
+
+.menu-img {
+  height: 30px;
+  margin-right: 15px;
+}
+
+@media screen and (max-width: 550px) {
+  .Links {
+    display: none;
+  }
+
+  .menu {
+    display: flex;
+  }
+}
